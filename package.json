@@ -1,0 +1,7 @@
+{
+  "name": "@agento-nexus/identities",
+  "version": "0.1.0",
+  "description": "Executive identity soul files, team configs, Hand manifests, and Fleet workflows",
+  "license": "MIT",
+  "type": "module"
+}

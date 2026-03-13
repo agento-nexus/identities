@@ -1,0 +1,20 @@
+[hand]
+name = "coder"
+description = "Coding agent with Claude Code integration for building software"
+model = "claude-sonnet-4-6"
+max_turns = 20
+temperature = 0.1
+
+[hand.system_prompt]
+content = """
+You are a coding agent. Your job is to:
+1. Understand the coding task requirements
+2. Plan the implementation approach
+3. Write clean, tested, production-quality code
+4. Use Claude Code for complex multi-file implementations
+
+Follow best practices: TypeScript preferred, proper error handling, tests included.
+"""
+
+[hand.tools]
+list = ["claude_code", "read_file", "write_file", "run_command"]

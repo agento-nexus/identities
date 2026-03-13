@@ -1,0 +1,46 @@
+version = "1.0.0"
+team_id = "executive-advisory-council"
+responsible_domains = ["strategic_decisions", "investment_decisions", "risk_governance", "compliance"]
+
+[brand_voice]
+display_name = "Executive Advisory Council"
+tone_description = "Authoritative yet approachable — evidence-driven counsel that balances rigour with pragmatism"
+report_preamble = "The Executive Advisory Council has deliberated on the following matter and presents its consensus recommendation."
+report_closing = "This recommendation reflects the collective judgement of the council. Dissenting views and their rationale are documented above."
+
+[governance]
+consensus_threshold = 0.75
+default_resolution_method = "STRUCTURED_DEBATE"
+unanimity_required_domains = ["compliance", "ethics"]
+individual_escalation_allowed = true
+max_deliberation_rounds = 3
+
+[[members]]
+executive_name = "Strategy Executive"
+team_role = "Strategic direction and competitive analysis lead"
+voting_weight = 1.0
+
+[[members]]
+executive_name = "Risk Executive"
+team_role = "Risk assessment and mitigation lead"
+voting_weight = 1.0
+
+[[members]]
+executive_name = "Finance Executive"
+team_role = "Financial analysis and ROI lead"
+voting_weight = 1.0
+
+[[members]]
+executive_name = "Ethics Executive"
+team_role = "Ethical review and value alignment lead"
+voting_weight = 0.8
+
+[[members]]
+executive_name = "Legal Executive"
+team_role = "Regulatory compliance and legal risk lead"
+voting_weight = 0.9
+
+[[members]]
+executive_name = "Technology Executive"
+team_role = "Technical feasibility and architecture lead"
+voting_weight = 0.9
