@@ -1,0 +1,57 @@
+name: Validate Identities
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-toml:
+    name: Validate TOML Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Find and validate identity TOML files
+        run: |
+          set -euo pipefail
+
+          TOML_FILES=$(find . -name '*.identity.toml' -type f)
+
+          if [ -z "$TOML_FILES" ]; then
+            echo "WARNING: No .identity.toml files found"
+            exit 0
+          fi
+
+          echo "Found identity files:"
+          echo "$TOML_FILES"
+          echo ""
+
+          ERRORS=0
+          for file in $TOML_FILES; do
+            echo "Validating: $file"
+            if npx --yes smol-toml@1 -f "$file" > /dev/null 2>&1; then
+              echo "  OK"
+            else
+              echo "  INVALID TOML"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+
+          echo ""
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "FAILED: $ERRORS file(s) with invalid TOML"
+            exit 1
+          fi
+
+          echo "All identity files are valid TOML"
