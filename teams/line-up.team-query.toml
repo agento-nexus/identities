@@ -1,0 +1,10 @@
+slug         = "line-up"
+display_name = "The Line-Up"
+description  = "Roles not what they seem — who's really running this. Usual Suspects energy: the obvious story is wrong, the team's job is to figure out what's actually happening behind the surface narrative. Summon for due diligence on a deal, an org investigation, or a market-signals reading where the stated reasons are suspect."
+summon_line  = "Run the Line-Up"
+
+[filter]
+film_caper  = "line-up"
+
+[tier_filter]
+tiers = []

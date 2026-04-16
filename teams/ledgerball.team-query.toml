@@ -1,0 +1,10 @@
+slug         = "ledgerball"
+display_name = "Ledgerball"
+description  = "Data finds what pattern-match misses. Moneyball-style quantitative analysis — structured evidence, cohort reasoning, ruthless math. Summon when the decision needs to be defended on numbers, not narrative."
+summon_line  = "Run Ledgerball"
+
+[filter]
+film_caper  = "ledgerball"
+
+[tier_filter]
+tiers = []

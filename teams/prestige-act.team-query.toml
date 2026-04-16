@@ -1,0 +1,10 @@
+slug         = "prestige-act"
+display_name = "The Prestige Act"
+description  = "Misdirection + the reveal at the right moment. A pledge, a turn, a prestige — the team designs the sequence of reveals so the audience sees what you want when you want. Summon for product launches, brand repositioning, or high-stakes announcements where timing and framing drive outcomes."
+summon_line  = "Put on the Prestige Act"
+
+[filter]
+film_caper  = "prestige-act"
+
+[tier_filter]
+tiers = []

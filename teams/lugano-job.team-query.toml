@@ -1,0 +1,10 @@
+slug         = "lugano-job"
+display_name = "The Lugano Job"
+description  = "Precision caper with audacity and a getaway plan. Where Basel's Eleven is about execution depth, the Lugano Job is about elegance under constraint — limited resources, tight deadline, success requires technical ingenuity and a plan B. Launch execution under pressure. M&A integration with a hard close date. Anything where the plan is tight and the margin for error is small."
+summon_line  = "Run the Lugano Job"
+
+[filter]
+film_caper  = "lugano-job"
+
+[tier_filter]
+tiers = []

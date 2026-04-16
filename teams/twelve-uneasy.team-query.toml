@@ -1,0 +1,10 @@
+slug         = "twelve-uneasy"
+display_name = "The Twelve Uneasy"
+description  = "Deliberation under heat — reasoning changes minds. One careful voice can move the room. Summon for the highest-stakes judgement calls where the decision must be defensible through every contrarian argument."
+summon_line  = "Sit the Twelve Uneasy"
+
+[filter]
+film_caper  = "twelve-uneasy"
+
+[tier_filter]
+tiers = []

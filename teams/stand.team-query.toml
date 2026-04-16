@@ -1,0 +1,10 @@
+slug         = "stand"
+display_name = "The Stand"
+description  = "Hold the line when outnumbered — no retreat. Zulu / 300 energy. Convene when the company needs defenders of non-negotiable positions: a regulatory stand, a compliance red line, a values-based refusal that will cost revenue short term."
+summon_line  = "Call the Stand"
+
+[filter]
+film_caper  = "stand"
+
+[tier_filter]
+tiers = []

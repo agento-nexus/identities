@@ -1,0 +1,10 @@
+slug         = "fellowship-of-firm"
+display_name = "The Fellowship of the Firm"
+description  = "Unlikely allies, long quest, shared mission. Personalities and backgrounds don't match, but the mission binds them. Convene for multi-year strategic bets where cohesion across diverse perspectives matters more than speed."
+summon_line  = "Form the Fellowship"
+
+[filter]
+film_caper  = "fellowship-of-firm"
+
+[tier_filter]
+tiers = []
