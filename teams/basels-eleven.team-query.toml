@@ -1,0 +1,10 @@
+slug         = "basels-eleven"
+display_name = "Basel's Eleven"
+description  = "Heist ensemble — specialists converge on one impossible job. Jazz, not orchestra: everyone has a role, timing matters, improvisation within structure is expected. Convene when you have a complex opportunity that needs simultaneous execution across legal, finance, technology, and market positioning. Not a committee deliberating — a crew executing."
+summon_line  = "Pull a Basel's Eleven"
+
+[filter]
+film_caper  = "basels-eleven"
+
+[tier_filter]
+tiers = []

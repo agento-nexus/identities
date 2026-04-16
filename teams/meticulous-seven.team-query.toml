@@ -1,0 +1,10 @@
+slug         = "meticulous-seven"
+display_name = "The Meticulous Seven"
+description  = "Defenders hired to protect someone weaker than the problem. The seven bring skills the protected party does not have, accept asymmetric risk on behalf of a weaker principal. Loyalty and expertise over personal gain. Summon when a project, team, or initiative needs defending from external pressure — regulatory, competitive, or internal political."
+summon_line  = "Send the Meticulous Seven"
+
+[filter]
+film_caper  = "meticulous-seven"
+
+[tier_filter]
+tiers = []

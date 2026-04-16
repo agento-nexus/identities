@@ -1,0 +1,10 @@
+slug         = "mission-helvetia"
+display_name = "Mission Helvetia"
+description  = "Bring them home — work the problem with what you have. Apollo 13 energy: constraints are the feature, the team has to improvise with what's on hand. Summon when resources are fixed, the situation is mid-crisis, and the job is to stabilise + recover + learn."
+summon_line  = "Go Mission Helvetia"
+
+[filter]
+film_caper  = "mission-helvetia"
+
+[tier_filter]
+tiers = []
