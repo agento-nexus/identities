@@ -26,6 +26,8 @@ export const CommunicationStyleSchema = z.enum([
   "COLLABORATIVE",  // Inclusive, consensus-seeking, relational
   "VISIONARY",      // Big-picture, inspirational, future-oriented
   "PRAGMATIC",      // Practical, implementation-focused, trade-off aware
+  "FORMAL",         // Structured, careful phrasing, low slang — used by governance/chair personas
+  "REFLECTIVE",     // Pause-and-consider, draws out implications, used by ethics/legal personas
 ]);
 export type CommunicationStyle = z.infer<typeof CommunicationStyleSchema>;
 

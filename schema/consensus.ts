@@ -39,6 +39,7 @@ export const ConflictResolutionMethodSchema = z.enum([
   "EVIDENCE_BASED",        // Additional data to resolve factual disputes
   "WEIGHTED_VOTING",       // Expertise-weighted voting
   "DELPHI_METHOD",         // Iterative anonymous feedback
+  "CONSENSUS",             // Persona authoring shorthand for "seek group agreement" — used by v2 atelier/chapter/gallery TOMLs as a high-level posture (no specific debate method prescribed)
   "COMPROMISE",            // Finding middle ground
   "INTEGRATIVE",           // Creative solution incorporating multiple viewpoints
   "ESCALATION",            // Escalation to human decision-makers
